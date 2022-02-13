@@ -4,7 +4,6 @@
 /* Padding below the footer and lighter body text */
 
 body {
-    font-family: "Oswald";
     background-color: #000000;
     padding-bottom: 3rem;
     color: #5a5a5a;
@@ -12,6 +11,7 @@ body {
   
 
 .navbar {
+    font-family: "Georgia";
     background-color: #000000;
     position: fixed;
     width: 100vw;
@@ -19,7 +19,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: "Oswald";
+    font-family: "Lobster";
     font-size: 40px;
     font-weight: 700;
 }
@@ -47,7 +47,7 @@ body {
 
 #Hero-Section h1 {
     color: rgb(216, 0, 14);
-    font-family: "Oswald";
+    font-family: "Lobster";
     font-size: 40px;
     font-weight: 700;
 }
@@ -60,28 +60,20 @@ body {
 
 #Sobre-Mi {
     background-color: #000000;
-    color: #FFFFFF;
-    font-family: "Oswald";
+    color: #5a5a5a;
+    font-family: "Georgia";
     line-height: 3;
 }
 
 
 /* Mi experiencia */
 
-#Experiencia div h1 {
-    font-family: "Oswald";
+#Experiencia {
+    font-family: "Georgia";
     font-size: 100 px;
 }
 #Experiencia i {
     color: #FFFFFF;
-}
-
-#Experiencia div:last-child article h4:first-child {
-    font-family: "Oswald";
-}
-#Experiencia div:last-child article h4:last-child {
-    font-family: "Open Sans";
-    font-weight: 300;    
 }
 
 
@@ -146,7 +138,7 @@ body {
 
 /* Contacto*/
 #Contacto h1 {
-    font-family: "Oswald";
+    font-family: "Lobster";
     font-size: 52px;
 }
 
@@ -158,7 +150,7 @@ body {
 }
 
 #favicon h1 {
-    font-family: "Oswald";
+    font-family: "Lobster";
 }
 
 #favicon a {
