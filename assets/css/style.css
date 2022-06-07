@@ -11,7 +11,7 @@ body {
   
 
 .navbar {
-    font-family: "Georgia";
+    font-family: "Cabin";
     background-color: #000000;
     position: fixed;
     width: 100vw;
@@ -60,19 +60,16 @@ body {
 #Sobre-Mi {
     background-color: #000000;
     color: #5a5a5a;
-    font-family: "Georgia";
+    font-family: "Cabin";
     line-height: 3;
 }
 
 
 /* Mi experiencia */
 
-#Experiencia {
-    font-family: "Georgia";
-    font-size: 100 px;
-}
-#Experiencia i {
-    color: #FFFFFF;
+#Experiencia h1{
+    font-family: "Lobster";
+    font-size: 52px;
 }
 
 
@@ -141,7 +138,11 @@ body {
     font-size: 52px;
 }
 
-  
+/* Trabajo*/
+#Trabajos h1 {
+  font-family: "Lobster";
+  font-size: 52px;
+}
 
 /* favicon */
 #favicon {
