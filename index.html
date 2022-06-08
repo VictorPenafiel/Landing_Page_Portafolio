@@ -17,6 +17,7 @@
   <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
   <script src="//code.tidio.co/x6cfgi08q8tkg3usqcb5mr6oelfvq3pt.js" async></script>
   <title>Mi portafolio web</title>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 
   <body>
@@ -45,9 +46,19 @@
         </div>
       </div>
     </nav>
-    <header id="Hero-Section" class="row col-sm-6 col-md-12 ">
-        <img src="./assets/img/IMG_4703.png" alt="Foto de perfil" class="img-container">
-    </header>
+    <div     
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="50"
+      data-aos-duration="1400"
+      data-aos-easing="ease-in-out"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-center">
+          <header id="Hero-Section" class="row col-sm-6 col-md-12 ">
+            <img src="./assets/img/IMG_4703.png" alt="Foto de perfil" class="img-container">
+          </header>
+    </div>
     <section id="Sobre-Mi" class="pt-0 container d-none d-sm-block">
       <div>
         <h4 style="color: orange;" class="text-center fw-bold">
@@ -55,7 +66,7 @@
         </h4>
         <hr class="opacity-100 w-25 mx-auto">
       </div>
-      <div class="row pt-3">
+      <div data-aos="zoom-in" data-aos-duration="1300" class="row pt-3">
         <div class="col-6">
           <p>Debido a la pandemia en la que nos encontramos mi antiguo proyecto de vida ha dejado de existir, por lo que me encuentro iniciando una nueva carrera profesional para enfrentar de mejor forma la crisis en la que nos encontramos, ya que he preferido mirar estas adversidades que nos pone la vida no como una crisis, sino más bien, como una oportunidad de crecimiento. Te agradezco que mires este portafolio donde he plasmado algunas de las competencias que poseo.
           </p>
@@ -68,7 +79,7 @@
       </div>
     </section>
     <section>
-      <div id="Curriculum" class="py-3 text-center">
+      <div data-aos="zoom-in" data-aos-duration="1500" id="Curriculum" class="py-3 text-center">
         <h4 class="text-center text-white py-2">¿Quiéres conocer más de mi? </h4>
         <br>
         <br>
@@ -83,7 +94,7 @@
         <hr class="opacity-100 w-25 mx-auto">
       <p class="my-4">He desempeñado roles muy diferentes y poseo habilidades que provienen de distintos campos laborales.</p>
 
-      <div class="row">
+      <div data-aos="fade-in" data-aos-duration="2500" class="row">
         <div class="col-md-4">
           <i class="fas fa-camera fa-3x my-3"></i>
           <h3 class="my-2">Realizador</h3>
@@ -111,7 +122,7 @@
     <section id="favicon" class="text-center py-5">
       <div class="container">
         <div class="row">
-          <div class="col-md-4">
+          <div data-aos="zoom-in" data-aos-duration="1300" class="col-md-4">
             <ul class="text-center">
               <li><span class="first-block">Nombre:</span><span class="second-block"> Víctor Peñafiel Carreño</span></li>
               <li><span class="first-block">Teléfono:</span><span class="second-block"> +56 9 8769 2950</span></li>
@@ -120,7 +131,7 @@
               <li><span class="first-block">Disponibilidad:</span><span class="second-block"> Inmediata</span></li>
             </ul>
           </div>
-          <div class="col-md-8">
+          <div data-aos="flip-up" data-aos-duration="1300" class="col-md-8">
             <h5>Puedes contactarme en mis redes sociales.</h5>
             <p>
             <div class="text-center py-2">
@@ -148,7 +159,7 @@
     <div class="mb-5 ">
     <h1 style="color: orange;" class="display-3 font-weight-bold my-4 text-center">Trabajos</h1>
     <hr class="opacity-50 w-5 mx-auto">
-    <div class="row featurette">
+    <div data-aos="fade-down-right" data-aos-duration="1300" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Newendo (Aplicación web)</h2>
         <p class="lead">Aplicación web para dar a conocer una nueva tecnología del Yo.</p>
@@ -165,7 +176,7 @@
     </div>
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div data-aos="fade-down-left" data-aos-duration="1300" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Ricomida</h2>
         <p class="lead">Sitio web totalmente responsivo que simula un sitio de comida.</p>
@@ -179,7 +190,7 @@
 
     <hr class="featurette-divider">
 
-    <div class="row featurette">
+    <div data-aos="fade-up" data-aos-duration="1300" class="row featurette">
       <div class="col-md-7">
         <h2 class="featurette-heading">Cuppon</h2>
         <p class="lead">Sitio web totalmente responsivo que simula un sitio de ofertas.</p>
@@ -212,5 +223,9 @@
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"></script>
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
