@@ -11,7 +11,7 @@ body {
   
 
 .navbar {
-    font-family: "Cabin";
+    font-family: "Georgia";
     background-color: #000000;
     position: fixed;
     width: 100vw;
@@ -20,7 +20,7 @@ body {
 
 .navbar-brand {
     font-family: "Lobster";
-    font-size: 40px;
+    font-size: 35px;
     font-weight: 700;
 }
 
