@@ -6,7 +6,7 @@
 body {
     background-color: #000000;
     padding-bottom: 3rem;
-    color: #5a5a5a;
+    color: #d8d3d3d5;
   }
   
 
@@ -59,7 +59,6 @@ body {
 
 #Sobre-Mi {
     background-color: #000000;
-    color: #5a5a5a;
     font-family: "Cabin";
     line-height: 3;
 }
